@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudPracticeMVC", "CrudPracticeMVC\CrudPracticeMVC.csproj", "{E3EAC006-2CAD-4818-A91B-8D59E0BE7301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITest", "APITest\APITest.csproj", "{6C1EC301-01D4-4BC5-948C-32C6BB84BCAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3EAC006-2CAD-4818-A91B-8D59E0BE7301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EAC006-2CAD-4818-A91B-8D59E0BE7301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EAC006-2CAD-4818-A91B-8D59E0BE7301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EAC006-2CAD-4818-A91B-8D59E0BE7301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1EC301-01D4-4BC5-948C-32C6BB84BCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1EC301-01D4-4BC5-948C-32C6BB84BCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1EC301-01D4-4BC5-948C-32C6BB84BCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1EC301-01D4-4BC5-948C-32C6BB84BCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E42993A-9FA8-4440-8807-C8D461865011}
+	EndGlobalSection
+EndGlobal
