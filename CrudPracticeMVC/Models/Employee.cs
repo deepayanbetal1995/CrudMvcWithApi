@@ -15,6 +15,8 @@ namespace CrudPracticeMVC.Models
         [Key]
         public string EmployeeId { get; set; }
         public string EmployeeName { get; set; }
+        public string EmpPassword { get; set; }
+        public string LoginErrorMessage { get; set; }
     }
 
 

@@ -14,7 +14,40 @@ namespace CrudPracticeMVC.Controllers
         // GET: Employee
         public ActionResult Index()
         {
-            return View(_employeeContext.GetEmployees());
+            return View();
+        }
+
+        public ActionResult afterLogin()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Login(Employee emp)
+        {
+            using (_employeeContext)
+            {
+                var useDetails = _employeeContext.employees.Where
+                    (x=>x.EmployeeName==emp.EmployeeName && x.EmpPassword==emp.EmpPassword)
+                    .FirstOrDefault();
+                if(useDetails == null)
+                {
+                    emp.LoginErrorMessage = "Invadid id pass";
+                    return View("Login", emp);
+                }
+                else
+                {
+                    Session["EmployeeName"] = useDetails.EmployeeName;
+                    Session["EmployeeId"] = useDetails.EmployeeId;
+                    return RedirectToAction("Index","Employee");
+                }
+            }
         }
     }
 }

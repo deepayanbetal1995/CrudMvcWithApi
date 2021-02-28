@@ -138,6 +138,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102051704215_InitialCreate.cs" />
+    <Compile Include="Migrations\202102051704215_InitialCreate.designer.cs">
+      <DependentUpon>202102051704215_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102281031047_newcoladd.cs" />
+    <Compile Include="Migrations\202102281031047_newcoladd.designer.cs">
+      <DependentUpon>202102281031047_newcoladd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102281138352_loginerrmsgadd.cs" />
+    <Compile Include="Migrations\202102281138352_loginerrmsgadd.designer.cs">
+      <DependentUpon>202102281138352_loginerrmsgadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\brandClass.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\EmployeeContext.cs" />
@@ -181,6 +194,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\brandsMVC\Index.cshtml" />
+    <Content Include="Views\Employee\Login.cshtml" />
+    <Content Include="Views\Employee\afterLogin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -200,6 +215,17 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202102051704215_InitialCreate.resx">
+      <DependentUpon>202102051704215_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281031047_newcoladd.resx">
+      <DependentUpon>202102281031047_newcoladd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281138352_loginerrmsgadd.resx">
+      <DependentUpon>202102281138352_loginerrmsgadd.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

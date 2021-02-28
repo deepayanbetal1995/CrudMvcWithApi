@@ -80,3 +80,7 @@ G:\dotNET\CrudPracticeMVC\CrudPracticeMVC\obj\Debug\CrudPracticeMVC.pdb
 G:\dotNET\CrudPracticeMVC\CrudPracticeMVC\obj\Debug\CrudPracticeMVC.csprojAssemblyReference.cache
 G:\dotNET\CrudPracticeMVC\CrudPracticeMVC\bin\System.Net.Http.Formatting.dll
 G:\dotNET\CrudPracticeMVC\CrudPracticeMVC\bin\System.Net.Http.Formatting.xml
+G:\dotNET\CrudPracticeMVC\CrudPracticeMVC\obj\Debug\CrudPracticeMVC.Migrations.InitialCreate.resources
+G:\dotNET\CrudPracticeMVC\CrudPracticeMVC\obj\Debug\CrudPracticeMVC.csproj.GenerateResource.cache
+G:\dotNET\CrudPracticeMVC\CrudPracticeMVC\obj\Debug\CrudPracticeMVC.Migrations.newcoladd.resources
+G:\dotNET\CrudPracticeMVC\CrudPracticeMVC\obj\Debug\CrudPracticeMVC.Migrations.loginerrmsgadd.resources

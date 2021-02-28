@@ -17,7 +17,7 @@ namespace CrudPracticeMVC.Models
 
         public IEnumerable<Employee> GetEmployees()
         {
-            return employees.ToList();
+            return employees;
         }
     }
 }
